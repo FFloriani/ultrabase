@@ -1,0 +1,7 @@
+{
+  "$schema": "../gen/schemas/desktop-schema.json",
+  "identifier": "default",
+  "description": "Só a janela principal fala com o app. As janelas das contas (sites do Supabase) ficam sem permissão nenhuma.",
+  "windows": ["main"],
+  "permissions": ["core:default"]
+}

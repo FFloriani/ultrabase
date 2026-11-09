@@ -1,0 +1,14 @@
+node_modules/
+dist/
+src-tauri/target/
+src-tauri/gen/
+*.log
+
+# Memória do projeto no Rastro: tem dados pessoais (e-mail, caminhos do PC). Fica só neste PC.
+rastro/
+
+# Capturas com dados reais de conta (e-mail, ref do projeto, pedaços das chaves).
+docs/copiar-para-ia.png
+
+# Configuração local do Claude Code.
+.claude/settings.local.json
